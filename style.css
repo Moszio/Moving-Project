@@ -1,0 +1,44 @@
+body {
+ background-color: aqua;
+ height:auto;
+ width:100%;
+ text-align: center;
+}
+header {
+ margin: 50px 0 50px 0; 
+ font-size: 30px;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+#big-square {
+  background-color: #111;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 400px;
+  z-index: 4;
+}
+
+#small-square {
+ width: 40px;
+ height: 20px;
+ background-color: cadetblue;
+ margin-bottom: auto;
+ z-index: 3;
+
+ bottom: 0px;
+ position: absolute;
+} 
+
+button {
+ margin-top: 20px;
+ border-radius: 50px;
+ size: 100px;
+ background-color: white;
+ padding: 20px;
+ border-width: 0px;
+ box-shadow: 2px 2px red;
+ 
+}
