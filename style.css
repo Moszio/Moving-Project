@@ -1,8 +1,8 @@
 body {
- background-color: aqua;
- height:auto;
- width:100%;
  text-align: center;
+ background-image: url("https://as1.ftcdn.net/v2/jpg/03/01/04/44/1000_F_301044458_3LKOHOHjZMK67nHIVHzq6K1a6pNXjb2c.jpg");
+ background-size: cover;
+ color: azure;
 }
 header {
  margin: 50px 0 50px 0; 
@@ -11,7 +11,7 @@ header {
 }
 
 #big-square {
-  background-color: #111;
+  background-color: rgb(230, 208, 248);
   height: 400px;
   margin: 0 auto;
   overflow: hidden;
@@ -27,28 +27,27 @@ header {
  background-color: rgb(149, 21, 117);
  bottom: 0px;
  position: absolute;
+ z-index: 6;
 } 
 
+#shoot {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(149, 21, 117);
+  z-index: 2;
+  left: 45%;
+}
+
 .container {
-  display: grid;
-  align-items: center;
-  justify-content: center;
+ position: fixed;
+  z-index: 2;
+  right: 50%;
 }
 
-body div .buttons {
- display: grid;
- flex-direction: column;
+
+
+
+.btn2 {
+  grid-template-columns: 2fr;
 }
-
-.btn1, .btn2, .btn3, .btn4 {
- margin-top: 20px;
- border-radius: 50px;
- size: 100px;
- background-color: white;
- padding: 20px;
- border-width: 0px;
- box-shadow: 2px 2px red;
- cursor: pointer;
-
-}
-
